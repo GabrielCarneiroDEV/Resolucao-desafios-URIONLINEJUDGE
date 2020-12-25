@@ -1,3 +1,6 @@
-const input = require("fs").readFileSync("stdin", "utf8")
+const input = require("fs").readFileSync("stdin", "utf8");
+var lines = input.split("\n");
 
-console.log(input)
+var a = parseInt(lines.shift());
+var b = parseInt(lines.shift());
+console.log(a, b);
